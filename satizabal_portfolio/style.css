@@ -1,0 +1,61 @@
+{
+    margin:0;
+    Padding: 0;
+}
+html, body{ `
+    width: 100;
+    background-color: lavender;
+    height: 100; 
+    font-size: 14px
+    font-weight: normal; 
+}
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: lavender;
+    background-repeat: repeat;
+    background-size:cover
+}
+.nav{
+    width: 350px;
+    height: auto;
+    top: 20%;
+    right: 0;
+        
+}
+
+.nav a{
+     text-decoration: none;
+    font-size: 28px;
+    font-family: typewriter;
+    font-weight: bold;
+    height:90px;
+    margin: 5px 0;
+    float: right;
+    display: inline-block;
+    background-color:lavender
+    color: black;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;      
+        
+}
+
+a.active, nav a:hover{
+    background-color: lavender;
+    color: aliceblue;
+    width:100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 90%;
+}
+.c{
+    width: 85%;
+}
+.d{
+    width: 90%;
+}
+
